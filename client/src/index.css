@@ -1,0 +1,115 @@
+:root {
+  margin: 0;
+  padding: 0;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  margin-bottom: 50px;
+  background-color: rgb(222, 240, 254);
+  padding: 1rem;
+}
+
+nav > ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  font-size: 1.2rem;
+}
+
+nav > ul > li > a {
+  text-decoration: none;
+}
+
+nav > ul > li > a:hover {
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+footer {
+  text-align: center;
+  background-color: rgb(222, 240, 254);
+  padding: 2rem;
+  color: blue;
+  margin-top: 6rem;
+}
+
+.titolo-home {
+  margin-bottom: 327px;
+  margin-top: 100px;
+}
+
+.titolo-forum {
+  margin-bottom: 110px;
+}
+
+.titolo-reg {
+  margin-bottom: 40px;
+}
+.titolo-log {
+  margin-bottom: 50px;
+}
+.titolo-account {
+  margin-bottom: 15px;
+}
+.container-login {
+  margin-bottom: 160px;
+}
+h1,
+h3 {
+  color: rgb(0, 0, 177);
+  text-align: center;
+  margin-top: 3rem;
+}
+
+label,
+input,
+textarea,
+button {
+  display: block;
+  margin-inline: 43%;
+  margin-top: 10px;
+}
+
+button {
+  padding: 0.3rem;
+  border-radius: 10%;
+  background-color: white;
+}
+
+button:hover {
+  color: blue;
+}
+
+.container-forum > ul > li {
+  margin-inline: 42%;
+  border: 1px solid;
+  word-wrap: break-word;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+span {
+  font-weight: bold;
+}
+.button-aggiungi {
+  margin-inline: 500px;
+}
+
+.button-forum {
+  font-size: 0.7rem;
+  margin-inline: 210px;
+  margin-top: 0px;
+}
+
+.textarea-forum {
+  margin-inline: 500px;
+}
+
+.textarea-azioni {
+  margin: 0;
+}
